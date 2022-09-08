@@ -1,6 +1,6 @@
 let files = [];
 let loaded;
-const fullURL = location.protocol + '//' + location.host;
+const fullURL = location.protocol + '//' + location.host + '/images';
 
 $(document).ready(function() {
 function preloadImage(url) {
