@@ -1,0 +1,8 @@
+// track mouse x and y coordinates and use e.offsetX anf e.offsetY to icremement the object position x and ypx positions
+
+// window.addEventListener("mousemove", (e) => {
+//     x = e.offsetX;
+//     y = e.offsetY;
+//     $('#the-img').css('object-position', `x${x}px y${y}px`)
+//     console.log(`x${x}px y${y}px`)
+// });

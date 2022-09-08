@@ -1,0 +1,30 @@
+#the-img {
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-position: top;
+}
+
+/* 
+
+Object position is what you use to move it around, like object-position: center; is centered, you can give absolute px values and stuff which means you could control it in JavaScript to set an absoltue position to pan it around?? you can have this is the viewport for it and move that around
+
+- so on w, viewport ++ 
+-- etc 
+
+
+object-position: top;
+
+object-position: bottom;
+
+object-position: x100px y50px;
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/object-position
+
+
+PXL_20220901_213217911.jpg
+*/
