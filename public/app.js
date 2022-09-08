@@ -1,5 +1,6 @@
 let files = [];
 let loaded;
+const fullURL = location.protocol + '//' + location.host;
 
 $(document).ready(function() {
 function preloadImage(url) {
@@ -16,7 +17,7 @@ preloadImage();
 
 // change on keypress
 
-fetch("http://localhost:8080/images")
+fetch(fullURL)
 .then((res) => res.json())
 .then((data) => {
     files = data.files;
